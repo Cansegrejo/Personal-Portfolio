@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-14:10:10	7798/7798	---MCZ	403	error ('Forbidden')	text/html	date:Wed,%2015%20Oct%202025%2019:10:15%20GMT	https://demo.templatemonster.com/demo/363199.html?_gl=1*2d85mc*_ga*MTc0MDM0NDkuMTc1MzkwMjM0OQ..*_ga_FTPYEGT5LY*czE3NjA0NjY1MzckbzMxJGcxJHQxNzYwNDY2NTM5JGo1OCRsMCRoMA..	C:/Users/sebas.ESTEBANDIDO/OneDrive/Escritorio/My_Portfolio/Personal-Portfolio/My_Portfolio/demo.templatemonster.com/demo/363199.077ca.delayed	(from )
-14:10:10	4760/4760	---MCZ	403	error ('Forbidden')	text/html	date:Wed,%2015%20Oct%202025%2019:10:15%20GMT	https://demo.templatemonster.com/robots.txt		(from )
