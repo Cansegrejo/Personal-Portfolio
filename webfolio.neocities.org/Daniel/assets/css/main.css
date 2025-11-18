@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&amp;display=swap");
 
 :root {
-  --main-color: #d00;
+  --main-color: rgb(238, 129, 56);
   --main-color-rgb: 255, 0, 0;
   --bg-color: #080808;
   --main-font: "Poppins", sans-serif;
@@ -27,7 +27,7 @@ body {
   color: #ddd;
 }
 ::selection {
-  background-color: #d00;
+  background-color: rgb(238, 129, 56);
   color: black;
 }
 a {
@@ -88,7 +88,7 @@ section {
   padding: 8px 28px;
   border: 2px solid var(--main-color);
   background-color: var(--main-color);
-  color: #fff;
+  color: #fff3f0;
   font-size: 16px;
   font-weight: bold;
   transition: 0.3s;
@@ -105,7 +105,7 @@ section {
 }
 .button.secondary:hover {
   background-color: var(--main-color);
-  color: #fff;
+  color: #fff3f0;
 }
 .scroll-top {
   position: fixed;
@@ -350,7 +350,7 @@ section.hero {
 }
 
 .hero h3 {
-  color: #d00;
+  color: rgb(238, 129, 56);
   font-size: 18px;
   font-weight: 600;
 }
@@ -359,7 +359,7 @@ section.hero {
   font-weight: 700;
 }
 .hero h2 span {
-  color: #d00;
+  color: rgb(238, 129, 56);
 }
 .hero .btn-box {
   margin-top: 40px;
@@ -438,10 +438,10 @@ section.hero {
   background-color: var(--main-color);
 }
 .service-card:hover i {
-  color: #fff;
+  color: #fff3f0;
 }
 .service-card:hover h4 {
-  color: #fff;
+  color: #fff3f0;
 }
 
 /* ----------------------------------------
@@ -467,7 +467,7 @@ section.hero {
 }
 .portfolio ul li:hover,
 .portfolio ul li.active {
-  color: #fff;
+  color: #fff3f0;
 }
 .portfolio ul li::after {
   content: "";
@@ -635,7 +635,7 @@ section.hero {
 }
 .contact ul li i:hover {
   background-color: var(--main-color);
-  color: #fff;
+  color: #fff3f0;
 }
 .contact ul li .text {
   margin-left: 10px;
@@ -656,12 +656,12 @@ section.hero {
   background-color: #111;
   border-color: transparent;
   border-radius: 0;
-  color: #fff;
+  color: #fff3f0;
 }
 .form-control:focus {
   background-color: #111;
   border-color: var(--main-color);
-  color: #fff;
+  color: #fff3f0;
 }
 .form-control::placeholder {
   color: #fff4;
