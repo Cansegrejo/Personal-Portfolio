@@ -366,21 +366,21 @@
           <div class="col-md-6 col-xl-3">
             <div class="counter-card">
               <h2><span class="count">100</span>+</h2>
-              <h4>Happy Classmates and Peers</h4>
+              <h4>Happy Classmates</h4>
             </div>
           </div>
 
           <div class="col-md-6 col-xl-3">
             <div class="counter-card">
               <h2><span class="count">3</span>+</h2>
-              <h4>Project Completed</h4>
+              <h4>Projects Completed</h4>
             </div>
           </div>
 
           <div class="col-md-6 col-xl-3">
             <div class="counter-card">
               <h2><span class="count">5</span>+</h2>
-              <h4>Olympiads Participated in</h4>
+              <h4>Olympiads</h4>
             </div>
           </div>
 
@@ -410,7 +410,7 @@
             <div class="owl-carousel testimonial-swiper">
               <div class="testimonial-card">
                 <div class="client">
-                  <div class="image"><img src="assets/img/testimonial/1.png" alt="Testimonial" /></div>
+                  <div class="image"><img src="assets/img/testimonial_pfp.png" alt="Testimonial" /></div>
                   <div class="text">
                     <h4>Patsy Pérez</h4>
                     <p>Physics Teacher</p>
@@ -427,13 +427,13 @@
                   Sebastián is a young man with qualities and values such as punctuality, responsibility,
                   leadership, and the ability to work in a team. He communicates effectively (both spoken
                   and written) and participates in extracurricular activities that promote the study of
-                  physical sciences and mathematics.
+                  physical sciences and mathematics, inspiring hundreds of students.
                 </p>
               </div>
 
               <div class="testimonial-card">
                 <div class="client">
-                  <div class="image"><img src="assets/img/testimonial_pfp" alt="Testimonial" /></div>
+                  <div class="image"><img src="assets/img/testimonial_pfp.png" alt="Testimonial" /></div>
                   <div class="text">
                     <h4>Lorenza Antadilla</h4>
                     <p>Math Teacher</p>
@@ -456,7 +456,7 @@
 
               <div class="testimonial-card">
                 <div class="client">
-                  <div class="image"><img src="assets/img/testimonial_pfp" alt="Testimonial" /></div>
+                  <div class="image"><img src="assets/img/testimonial_pfp.png" alt="Testimonial" /></div>
                   <div class="text">
                     <h4>Lourdes Melo</h4>
                     <p>¡Supérate! Viceprincipal</p>
@@ -605,42 +605,8 @@
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-  const form = document.getElementById("contact-form");
-  const msg = document.querySelector(".form-message");
-  const button = form.querySelector("button");
-
-  form.addEventListener("submit", async function (e) {
-    e.preventDefault();
-
-    // Loading visual
-    button.disabled = true;
-    button.querySelector("span").textContent = "Sending...";
-
-    const sendData = new FormData(form);
-
-    try {
-      const res = await fetch(form.action, {
-        method: "POST",
-        body: sendData,
-        headers: { "Accept": "application/json" }
-      });
-
-      if (res.ok) {
-        msg.textContent = "Message sent successfully!";
-        msg.style.color = "#4CAF50";
-        form.reset();
-      } else {
-        msg.textContent = "Ups! Something went wrong.";
-        msg.style.color = "red";
-      }
-    } catch (err) {
-      msg.textContent = "Error sending message.";
-      msg.style.color = "red";
-    }
-
-    // Reset button
-    button.disabled = false;
-    button.querySelector("span").textContent = "Send Message";
+  document.querySelector("button").addEventListener("click", () => {
+    alert("This feature is not available yet.");
   });
 </script>
   </body>
