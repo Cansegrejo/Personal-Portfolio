@@ -342,7 +342,7 @@ section.hero {
   min-height: 100vh;
   height: 100vh;
 
-  background: url("../img/hero.png");
+  background: url("../img/background.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
